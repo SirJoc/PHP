@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-
 .tags__show {
     width: 100%;
     border-radius: 7px;
@@ -136,4 +135,3 @@ body{
 .hidden-events1 {
     overflow: hidden;
 }
-
