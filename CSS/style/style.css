@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+.tags__show {
+    width: 100%;
+    border-radius: 7px;
+    border: 2px solid black;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.tag__circle-outside {
+    width: 150px;
+    background-color: #4CAF50;
+    margin-top: 8px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.tag__circle-inside {
+    background-color: #4CAF50;
+    border-radius: 7px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.tag__text {
+    padding: 5px;
+    color: whitesmoke;
+    font-family: Verdana;
+}
+
+.button__select-hover:hover {
+    background-color: rgb(211, 219, 213);
+    border-radius: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EAEBEF;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav__link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    padding-left: 15px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav__link--inside:hover{
+    background: #F6F8FA;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background: #fff;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.list__button--click:hover {
+    background-color: rgb(211, 219, 213);
+    border-radius: 15px;
+    transition:none !important;
+}
+
+.arrow .list__arrow{
+    transform: rotate(90deg);
+}
+
+.list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+/*
+    border-top: 2px solid #303440;
+    border-bottom: 2px solid #303440;
+*/
+
+.list__show-1 {
+    list-style: none;
+    text-align: left;
+    padding-left: 50px;
+    transition: height .4s;
+    height: 0;
+}
+
+.hidden-events1 {
+    overflow: hidden;
+}
+

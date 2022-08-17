@@ -1,26 +1,140 @@
 <!DOCTYPE html>
-<html>
-    
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <head>
-        <title>Prueba</title>
-    </head>
-    <body>
-        <script src="main.js"></script>
-        <ul>
-            <li>
-                <div>
-                    <a>Inicio</a>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú despegable</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="body__half">
+        <h2>Características</h2>
+        <nav class="nav">
+            <div class="tags__show">
+                <h3>Tags</h3>
+                <div class="tag__circle-outside">
+                    <div class="tag__circle-inside">
+                        <span class="tag__text">Mujer</span>
+                    </div>
                 </div>
-                <ul class="list__show">
-                    <li class="list__inside">
-                        <a>Mujer</a>
-                    </li>
-                    <li class="list__inside">
-                        <a>Hombre</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </body>
+                <div class="tag__circle-outside">
+                    <div class="tag__circle-inside">
+                        <span class="tag__text">Ropa deportiva</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="list">
+    
+                <li class="list__item list__item--click">
+                    <div class="list__button list__button--click button__select-hover">
+                        <img src="assets/dashboard.svg" class="list__img">
+                        <a href="javascript:void(0)" class="nav__link"><b>Seleccionar</b></a>
+                        <img src="assets/arrow.svg" class="list__arrow">
+                    </div>
+    
+                    <ul class="list__show">
+                        <li class="list_item list__item--click">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Mujer</a>
+                            </div>
+                            <ul class="list__show-1 hidden-events1">
+                                <li class="list_item-1 list__item--click">
+                                    <div>
+                                        <a>Accesorios</a>
+                                    </div>
+                                </li>
+                                <li class="list_item-1 list__item--click">
+                                    <div>
+                                        <a>Todo Denim</a>
+                                    </div>
+                                </li>
+                                <li class="list_item-1 list__item--click">
+                                    <div>
+                                        <a>Ropa Interior</a>
+                                    </div>
+                                </li>
+                                <li class="list_item-1 list__item--click">
+                                    <div>
+                                        <a>Ropa Deportiva</a>
+                                    </div>
+                                </li>
+                                <li class="list__item--click">
+                                    <div>
+                                        <a>Conjuntos</a>
+                                    </div>
+                                </li>
+                                <li class="list_item list__item--click">
+                                    <div>
+                                        <a>Superiores</a>
+                                    </div>
+                                </li>
+                                <li class="list_item list__item--click">
+                                    <div>
+                                        <a>Inferiores</a>
+                                    </div>
+                                </li>
+                                <li class="list_item list__item--click">
+                                    <div>
+                                        <a>Una pieza</a>
+                                    </div>
+                                </li>
+                                <li class="list__item--click">
+                                    <div>
+                                        <a>Ropa Materna</a>
+                                    </div>
+                                </li>
+                                <li class="list__item--click">
+                                    <div>
+                                        <a>Bikinis</a>
+                                    </div>
+                                </li>
+                                <li class="list__item--click">
+                                    <div>
+                                        <a>Calzado</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+    
+                        <li class="list__inside ">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Hombre</a>
+                            </div>
+                        </li>
+
+                        <li class="list__inside">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Infantil</a>
+                            </div>
+                        </li>
+
+                        <li class="list__inside">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Hogar</a>
+                            </div>
+                        </li>
+
+                        <li class="list__inside">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Material Textil</a>
+                            </div>
+                        </li>
+
+                        <li class="list__inside">
+                            <div class="list__button--click">
+                                <a href="javascript:void(0)" class="nav__link">Escolar</a>
+                            </div>
+                        </li>
+                    </ul>
+    
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    
+    <script src="main.js"></script>
+</body>
 </html>
