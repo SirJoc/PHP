@@ -1,0 +1,40 @@
+.gc_marketplace__combination-container {
+  display: flex;
+}
+
+.gc_marketplace__combination-label {
+  -webkit-user-select: none;
+}
+
+.gc_marketplace__combination-data {
+  height: 70px;
+  width: 200px;
+  background-color: cornflowerblue;
+  overflow: scroll;
+}
+
+.scrollcontainer {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  height: 300px;
+  bottom: 0px;
+  top: 60px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
