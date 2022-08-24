@@ -22,7 +22,7 @@
                         if($i != 9){
                             echo '<div class="gc_marketplace__combination-attribute">
                                         <label class="gc_marketplace__combination-label">
-                                            <input type="checkbox" value="0">
+                                            <input type="checkbox" value="Celeste intermedio" name="check-combination" class="checksito">
                                             <span class="gc_marketplace__combination-text">Celeste intermedio</span>
                                         </label>
                                     
@@ -30,7 +30,7 @@
                         }else {
                             echo '<div class="gc_marketplace__combination-attribute">
                                         <label class="gc_marketplace__combination-label">
-                                            <input type="checkbox" value="0" id="celeste_intermedio">
+                                            <input type="checkbox" value="cambio de planes" id="celeste_intermedio" class="checksito" name="check-combination">
                                             <span class="gc_marketplace__combination-text">Celeste intermedio</span>
                                         </label>
                                </div>';
@@ -45,7 +45,7 @@
                 for ($i = 0; $i < 10; $i++){
                 echo '<div class="gc_marketplace__combination-attribute">
                         <label class="gc_marketplace__combination-label">
-                            <input type="checkbox" value="0">
+                            <input type="checkbox" value="este no es celeste" class="checksito" name="check-combination">
                             <span class="gc_marketplace__combination-text">Celeste intermedio</span>
                         </label>
                        </div>';
