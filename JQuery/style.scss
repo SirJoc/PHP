@@ -1,14 +1,13 @@
 .gc_marketplace__combination-label {
   -webkit-user-select: none;
-
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .gc_marketplace__combination-title {
   display: flex;
-  background-color: rgb(200, 200, 200);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border: 2px solid black;
+  border: 1px solid grey;
+  border-bottom: 0px;
   width: 450px;
   margin: auto;
   .title {
@@ -16,6 +15,19 @@
   }
 }
 
+.gc_marketplace__show-tags {
+  right: 0;
+  position: fixed;
+  padding: 5px 5px 1px 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 3;
+  cursor: pointer;
+  img {
+    color: #2962ff;
+  }
+}
 
 .gc_marketplace__combination-tags {
   width: 100%;
@@ -23,17 +35,14 @@
 
 $celeste_intermedio: #2962ff;
 
-.scrollcontainer {
+.gc_marketplace__scrollcontainer {
   margin: auto;
   width: 450px;
   position: relative;
   z-index: 1;
   height: 100px;
   overflow-y: scroll;
-  background-color: rgb(200, 200, 200);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border: 2px solid black;
+  border: 1px solid grey;
 
   .split {
     height: 100%;
@@ -59,7 +68,7 @@ $celeste_intermedio: #2962ff;
 }
 
 @media (max-width: 450px) {
-  .scrollcontainer {
+  .gc_marketplace__scrollcontainer {
     height: 200px;
     width: 100%;
     padding-right: -25px;
