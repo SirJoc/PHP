@@ -1,0 +1,30 @@
+.gc_marketplace_amount_left_for_discount {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+}
+.gc_marketplace_amount_left_for_discount .text_discount {
+  font-size: 12px;
+  font-weight: 700;
+  color: #009A59;
+}
+.gc_marketplace_amount_left_for_discount .text_discount_city {
+  font-size: 10px;
+  font-weight: 400;
+}
+.gc_marketplace_amount_left_for_discount #barDiscount {
+  width: 283px;
+  height: 7px;
+  background-color: rgba(0, 188, 53, 0.2);
+  border-radius: 5px;
+}
+.gc_marketplace_amount_left_for_discount #barDiscount #Progress {
+  height: 100%;
+  width: 10%;
+  background-color: rgb(0, 188, 53);
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
