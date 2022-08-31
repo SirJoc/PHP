@@ -1,0 +1,92 @@
+$color_back : rgb(192, 196, 193)
+    
+.gc_marketplace_amount_left_for_discount
+    display: inline-flex  
+    flex-direction: column  
+    justify-content: center  
+    align-items: center  
+    font-family: Montserrat  
+
+    .text_discount  
+        font-size: 12px  
+        font-weight: 700  
+        color: #009A59  
+     
+    .text_discount_city  
+        font-size: 10px  
+        font-weight: 400  
+     
+
+    #barDiscount  
+        width: 283px  
+        height: 7px  
+        background-color: rgb(0, 188, 53, .2)  
+        border-radius: 5px  
+    
+        #Progress  
+            height: 100%  
+            width: 10%  
+            background-color: rgb(0, 188, 53)  
+            border-radius: 5px  
+
+
+.borrar1
+    
+    
+.intento1 
+    font-size: 12px
+
+.no_select
+    -webkit-user-select: none
+    -moz-user-select: none
+    user-select: none
+    
+
+.hidden
+    display: none !important
+
+.showin
+    display: inline
+
+
+.card_compra
+    width: 300px
+    height: 100px
+    background-color: red
+    position: relative
+    display: flex
+    .imagen
+        width: 100px
+        height: 100px
+        background-color: blue
+
+    .datos
+        text-align: justify
+        
+
+    .card_tapa1
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        background-color: rgb($color_back, .3)
+        border-radius: 15px
+        display: flex
+        justify-content: center
+        align-items: center
+        
+        .imagen
+            color: black
+            width: 35px
+            height: 35px
+            background-color: rgb(100,100,100, 0)
+            animation: loading__delete  4s infinite linear
+
+
+@keyframes loading__delete 
+    from 
+        transform: rotate(0deg)
+    to  
+        transform: rotate(360deg)
+
+
